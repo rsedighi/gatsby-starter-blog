@@ -17,6 +17,14 @@ module.exports = {
       },
     },
     {
+    resolve: `gatsby-source-contentful`,
+    options: {
+      spaceId: `t3ykniu69vk3`,
+      accessToken: `eQvYdUvL2t5-ccTqDuNR3awlUb7uMIubQbI5PWN7uw0`,
+    },
+  },
+
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
